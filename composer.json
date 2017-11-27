@@ -1,0 +1,23 @@
+{
+    "name": "agentsib/docs2pdf",
+    "description": "Convert documents to PDF with LibreOffice",
+    "type": "project",
+    "license": "MIT",
+    "keywords": ["libreoffice", "office", "pdf", "doc2pdf", "docx2pdf"],
+    "authors": [
+        {
+            "name": "Ilya Kovalenko",
+            "email": "agentsib@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "silex/silex": "^2.2",
+        "symfony/process": "^3.3"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    }
+}
